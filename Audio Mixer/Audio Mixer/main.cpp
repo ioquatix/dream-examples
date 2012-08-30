@@ -67,7 +67,7 @@ namespace AudioMixer
 		switch(eventInput.event()) {
 			case EventInput::PAUSE:
 				logger()->log(LOG_DEBUG, "-- PAUSE");
-				_background_music->fade_out(manager()->event_loop());
+				_background_music->fade_out(manager()->event_loop(), 1.0);
 				return true;
 
 			// With the current implementation, this event is never propagaed to the scene, so this code is effectively dead.
@@ -78,7 +78,7 @@ namespace AudioMixer
 
 			case EventInput::RESUME:
 				logger()->log(LOG_DEBUG, "-- RESUME");
-				_background_music->fade_in(manager()->event_loop());
+				_background_music->fade_in(manager()->event_loop(), 1.0);
 				return true;
 		}
 		
