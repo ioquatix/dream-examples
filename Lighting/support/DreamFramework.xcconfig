@@ -2,6 +2,7 @@
 
 // The root directory of Dream Project:
 DREAM_PROJECT=$(SRCROOT)/support/dream-framework
+DREAM_PROJECT_LIBRARIES=-lDream -lpng -ljpeg -lfreetype -logg -lvorbis -lvorbisfile -lz -lbz2
 
 // Include the basic Dream-Project configuration:
-#include "support/dream-framework/share/build/dream-framework.xcconfig"
+#include "support/dream-framework/share/build/DreamFramework.xcconfig"

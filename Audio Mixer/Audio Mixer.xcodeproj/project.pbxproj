@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E270B3D15EF995A004994F8 /* DreamFramework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = DreamFramework.xcconfig; path = support/DreamFramework.xcconfig; sourceTree = "<group>"; };
 		7E65139315DEA04200B63CB2 /* Audio Mixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio Mixer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E65139515DEA04200B63CB2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		7E65139815DEA04200B63CB2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -38,7 +39,6 @@
 		7E9E427A142A1BE30061260C /* Dream Icon (114x114).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Dream Icon (114x114).png"; path = "../../dream-framework/share/media/Dream Icon (114x114).png"; sourceTree = "<group>"; };
 		7E9E4287142A31AA0061260C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7E9E4289142A31D80061260C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7EA2CF6E15EF6AD8008B2D3E /* dream-framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "dream-framework.xcconfig"; path = "support/dream-framework.xcconfig"; sourceTree = "<group>"; };
 		7EB5FDAC12CC93F100B704E3 /* Music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Music; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +117,7 @@
 		7E9E424F142A1B3B0061260C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7EA2CF6E15EF6AD8008B2D3E /* dream-framework.xcconfig */,
+				7E270B3D15EF995A004994F8 /* DreamFramework.xcconfig */,
 				7E9E4289142A31D80061260C /* Foundation.framework */,
 				7E9E4287142A31AA0061260C /* UIKit.framework */,
 				7E65139515DEA04200B63CB2 /* Cocoa.framework */,
@@ -283,7 +283,7 @@
 /* Begin XCBuildConfiguration section */
 		1DEB923608733DC60010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EA2CF6E15EF6AD8008B2D3E /* dream-framework.xcconfig */;
+			baseConfigurationReference = 7E270B3D15EF995A004994F8 /* DreamFramework.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -297,7 +297,7 @@
 		};
 		1DEB923708733DC60010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EA2CF6E15EF6AD8008B2D3E /* dream-framework.xcconfig */;
+			baseConfigurationReference = 7E270B3D15EF995A004994F8 /* DreamFramework.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;

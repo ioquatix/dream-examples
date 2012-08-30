@@ -31,7 +31,7 @@
 		7E0349A61582EAA600FC6832 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7E0349D915832AE600FC6832 /* wireframe.fragment-shader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "wireframe.fragment-shader"; sourceTree = "<group>"; };
 		7E0349DA15832AE600FC6832 /* wireframe.vertex-shader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "wireframe.vertex-shader"; sourceTree = "<group>"; };
-		7EB83A7C15EF5E4C0079A7FD /* dream-framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "dream-framework.xcconfig"; path = "support/dream-framework.xcconfig"; sourceTree = "<group>"; };
+		7EB83A7C15EF5E4C0079A7FD /* DreamFramework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = DreamFramework.xcconfig; path = support/DreamFramework.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		7E0349971582EAA600FC6832 = {
 			isa = PBXGroup;
 			children = (
-				7EB83A7C15EF5E4C0079A7FD /* dream-framework.xcconfig */,
+				7EB83A7C15EF5E4C0079A7FD /* DreamFramework.xcconfig */,
 				7E0349A51582EAA600FC6832 /* Joint Blender */,
 				7E0349A31582EAA600FC6832 /* Products */,
 			);
@@ -132,7 +132,7 @@
 /* Begin XCBuildConfiguration section */
 		7E0349AA1582EAA600FC6832 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EB83A7C15EF5E4C0079A7FD /* dream-framework.xcconfig */;
+			baseConfigurationReference = 7EB83A7C15EF5E4C0079A7FD /* DreamFramework.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -159,7 +159,7 @@
 		};
 		7E0349AB1582EAA600FC6832 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EB83A7C15EF5E4C0079A7FD /* dream-framework.xcconfig */;
+			baseConfigurationReference = 7EB83A7C15EF5E4C0079A7FD /* DreamFramework.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
