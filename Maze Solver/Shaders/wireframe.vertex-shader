@@ -1,0 +1,13 @@
+#version 150
+
+uniform mat4 display_matrix;
+uniform mat4 model_matrix;
+
+in vec3 position;
+
+out vec4 surface_position;
+
+void main () {
+	surface_position = model_matrix * vec4(position, 1.0);	
+	gl_Position = display_matrix * surface_position;
+}
