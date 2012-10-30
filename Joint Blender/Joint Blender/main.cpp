@@ -287,7 +287,7 @@ namespace JointBlender {
 			
 			mesh->apply(Mat44::translating_matrix(Vec3(40, 0, 0)));
 			
-			RealT rotation = -(0.5 * R180 * Number<TimeT>::sin(Number<TimeT>::wrap(time, R360)));
+			RealT rotation = -(0.75 * R180 * Number<TimeT>::sin(Number<TimeT>::wrap(time, R360)));
 			mesh->apply(Mat44::rotating_matrix(rotation, Vec3(0, 0, 1)));
 			
 			_upper->set_mesh(mesh);
