@@ -29,12 +29,12 @@
 /* Begin PBXFileReference section */
 		7E0349A21582EAA600FC6832 /* Maze Solver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Maze Solver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0349A61582EAA600FC6832 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		7E0349BE1582F31300FC6832 /* DreamFramework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = DreamFramework.xcconfig; path = support/DreamFramework.xcconfig; sourceTree = "<group>"; };
 		7E08536215DEA8660012C813 /* Maze.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Maze.cpp; sourceTree = "<group>"; };
 		7E08536315DEA8660012C813 /* Maze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maze.h; sourceTree = "<group>"; };
 		7E08536415DEA8660012C813 /* MazeSolverScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MazeSolverScene.cpp; sourceTree = "<group>"; };
 		7E08536515DEA8660012C813 /* MazeSolverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MazeSolverScene.h; sourceTree = "<group>"; };
 		7E8C7EF815F79EA500F90A4A /* Shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shaders; sourceTree = SOURCE_ROOT; };
+		7EC9C891164011450040B411 /* dream-framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "dream-framework.xcconfig"; path = "support/dream-framework.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 		7E0349BD1582F31300FC6832 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7E0349BE1582F31300FC6832 /* DreamFramework.xcconfig */,
+				7EC9C891164011450040B411 /* dream-framework.xcconfig */,
 			);
 			name = Frameworks;
 			path = inf;
@@ -157,7 +157,7 @@
 /* Begin XCBuildConfiguration section */
 		7E0349AA1582EAA600FC6832 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E0349BE1582F31300FC6832 /* DreamFramework.xcconfig */;
+			baseConfigurationReference = 7EC9C891164011450040B411 /* dream-framework.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -184,7 +184,7 @@
 		};
 		7E0349AB1582EAA600FC6832 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E0349BE1582F31300FC6832 /* DreamFramework.xcconfig */;
+			baseConfigurationReference = 7EC9C891164011450040B411 /* dream-framework.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -204,7 +204,6 @@
 		};
 		7E0349AD1582EAA600FC6832 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E0349BE1582F31300FC6832 /* DreamFramework.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = "Maze Solver";
 			};
@@ -212,7 +211,6 @@
 		};
 		7E0349AE1582EAA600FC6832 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E0349BE1582F31300FC6832 /* DreamFramework.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = "Maze Solver";
 			};

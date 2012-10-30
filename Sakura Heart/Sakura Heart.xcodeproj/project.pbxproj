@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7E0DE9BB14E663A4009EEF7E /* Shaders in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7E0DE9BA14E6314F009EEF7E /* Shaders */; };
 		7E14F8401422FAA300AB80F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E14F83F1422FAA300AB80F1 /* main.cpp */; };
-		7E9EA73C142306E300F8BC49 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9EA73B142306E300F8BC49 /* OpenGL.framework */; };
 		7EA4D10714E93FB800D5C4C6 /* Textures in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7EA4D10614E92C2000D5C4C6 /* Textures */; };
 /* End PBXBuildFile section */
 
@@ -31,10 +30,8 @@
 		7E0DE9BA14E6314F009EEF7E /* Shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shaders; sourceTree = "<group>"; };
 		7E14F83B1422FAA200AB80F1 /* Sakura Heart */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sakura Heart"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E14F83F1422FAA300AB80F1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		7E9E41EB14286DF60061260C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
-		7E9EA73B142306E300F8BC49 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		7EA4D10614E92C2000D5C4C6 /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Textures; sourceTree = "<group>"; };
-		7EB83A9715EF69610079A7FD /* DreamFramework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = DreamFramework.xcconfig; path = support/DreamFramework.xcconfig; sourceTree = "<group>"; };
+		7EC9C8A01640120F0040B411 /* dream-framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "dream-framework.xcconfig"; path = "support/dream-framework.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +39,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E9EA73C142306E300F8BC49 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +76,7 @@
 		7E9E41C014286DCF0061260C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7EB83A9715EF69610079A7FD /* DreamFramework.xcconfig */,
-				7E9E41EB14286DF60061260C /* OpenGLES.framework */,
-				7E9EA73B142306E300F8BC49 /* OpenGL.framework */,
+				7EC9C8A01640120F0040B411 /* dream-framework.xcconfig */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,7 +148,7 @@
 /* Begin XCBuildConfiguration section */
 		7E14F8431422FAA300AB80F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EB83A9715EF69610079A7FD /* DreamFramework.xcconfig */;
+			baseConfigurationReference = 7EC9C8A01640120F0040B411 /* dream-framework.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -181,7 +175,7 @@
 		};
 		7E14F8441422FAA300AB80F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EB83A9715EF69610079A7FD /* DreamFramework.xcconfig */;
+			baseConfigurationReference = 7EC9C8A01640120F0040B411 /* dream-framework.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
